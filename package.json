@@ -1,0 +1,20 @@
+{
+  "name": "fayi-lizijie",
+  "version": "0.0.6",
+  "main": "dist/main.js",
+  "bin": {
+    "lzj": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.1",
+    "@types/node": "^16.9.1"
+  }
+}
